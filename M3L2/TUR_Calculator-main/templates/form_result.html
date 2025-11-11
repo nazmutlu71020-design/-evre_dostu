@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../static/css/style.css"> 
+  <title>Form Sonuçları</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>Teşekkür ederiz!</h1>
+      <p>Bilgileriniz başarıyla alındı.</p>
+    </div>
+  </header>
+  <main>
+    <div class="main__rez">
+      <h2>Gönderilen Bilgiler:</h2>
+      <p><strong>Ad:</strong> {{ name }}</p>
+      <p><strong>E-posta:</strong> {{ email }}</p>
+      <p><strong>Adres:</strong> {{ address }}</p>
+      <p><strong>Tarih:</strong> {{ date }}</p>
+      <p>Uzmanlarımız en kısa sürede sizinle iletişime geçecektir.</p>
+    </div>
+  </main>
+</body>
+</html>
